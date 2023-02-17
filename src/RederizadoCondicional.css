@@ -1,0 +1,24 @@
+.square {
+    width: 255px;
+    height: 255px;
+    background-color: black;
+}
+
+.retangle {
+    width: 350px;
+    height: 255px;
+    background-color: black;
+}
+
+button {
+    all: unset;
+    margin-bottom: 0.5em;
+    background: hsl(128, 98%, 24%);
+    color: white;
+    padding: 0.4em;
+    border-radius: 0.5em;
+}
+
+button+button {
+    margin-left: 10px;
+}
